@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+function factorial(){
+var s= document.getElementById('word').value;
+var n= parseInt(s);
+var sum=1;
+if(n>0)
+{
+for( var i=1;i<=n;i++){
+sum=sum*i;
+}
+}
+document.write('fact :'+ sum);
+
+}
+
+</script>
+</head>
+<body>
+
+<input type="text" id="word" name="inp"  >
+<input type="button" name="button" value="press" onClick="factorial()" />
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+.mytable{
+background-color:purple;
+width:300px;
+height:300px;
+border:2px solid yellow ;
+padding:10px;
+}
+
+#td1{color:white;font-family:cursive;padding:10px;}
+#td2{color:white;font-family:cursive;padding:10px;}
+#th1{color:white;font-family:cursive;padding:10px;}
+#in2{color:white;background-color:blue;padding-bottom:1px;}

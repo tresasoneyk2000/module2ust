@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    border-top: rgb(7,7, 7);
+    border-style:solid;
+    border-color: rgb(223,27, 27);
+    border-width: 3px;
+    background-color: lavender;
+
+}
+div{
+    width: "200px";
+    height: "100px";
+    border:10px;
+    border-color:white;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+}
+#first{
+    border-style: dashed;
+}
+#second{
+    border-style: double;
+    border-color: rgb(255, 251, 0);
+}
+#third{
+    border-style: ridge;
+}
+.p1{
+    background-color: rgb(58, 6, 6);
+    color: white;
+}
+.first-para{
+    color: orange;
+    font-size: x-large;
+}
+#p-1{
+    font-style: italic;
+}
+#p-2{
+    font-style: oblique;
+    font-size: smaller;
+}
+#p-3{
+    font-size: medium;
+    color: red;
+}
+#first>h1{
+    font-family:  'Lily Script One', cursive;
+}
+#second>h1{
+    font-family: 'Tangerine', cursive;
+}
+#third>h1{
+    font-family: 'Homemade Apple', cursive;
+}
+
+
+#first span{
+    color: aquamarine;
+
+    
+}
+#second span{
+    color: brown;
+}
+#third span{
+    color: bisque;
+}
+span{
+    color:blueviolet;}

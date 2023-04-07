@@ -1,0 +1,47 @@
+
+
+
+
+<html>
+<head>
+<title>switch</title>
+<script>
+function countcase(){
+    
+    var upper=0;
+    var lower=0;
+	var s= document.getElementById("word").value;
+    document.write("wordlength:" + s.length);
+	document.write('<br>');
+	document.write("word:" + s);
+
+    for(var i=0;i<s.length;i++){
+        if(s[i].toUpperCase() ==s[i]){
+            upper=upper+1;
+        }
+        else{
+            lower=lower+1;
+        }
+
+    }
+
+document.write("UpperCount:" +upper);
+    document.write("LowerCount:" +lower);
+
+}
+</script>
+</head>
+<body>
+<input type="text" id="word" name="inp"  >
+<input type="button" name="button" value="press" onClick="countcase()" />
+</body>
+</html>
+
+
+
+
+
+
+
+
+

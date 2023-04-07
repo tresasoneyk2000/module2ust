@@ -1,0 +1,77 @@
+*{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+aside{
+    border-color: red;
+    border-style: groove;
+    margin: 5px;
+    
+}
+header{
+    height: 100px;
+    display: flex;/*row wise with no wrap*/
+    flex-wrap: nowrap;
+    margin: 5px;
+    background-color: aliceblue;
+    border-color: red;
+    border-style: groove;
+
+}
+header h1{
+    line-height: 100px;
+    text-align: center;
+
+}
+nav{
+    display: flex;
+    direction: row;
+    
+}
+nav a{
+    text-decoration: none;
+    line-height: 100px;
+    text-align: center;
+}
+main{
+    margin:5px;
+    display: flex;
+    flex: auto;
+    height: max-content;
+    border-color: red;
+    border-style: groove;
+}
+
+section{
+    text-align: center;
+    height: fit-content;
+    margin: 5px;
+    border-color: red;
+    border-style: groove;
+}
+
+#as-left{
+    width: 25%;
+    height: fit-content;
+   
+}
+#as-right{
+    
+    width: 25%;
+    height: fit-content;
+
+}
+
+footer{
+    text-align: center;
+    background-color: darkgray;
+    margin: 5px;
+    height: 50px;
+}
